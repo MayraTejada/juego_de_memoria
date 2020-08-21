@@ -1,0 +1,53 @@
+<html lang="es">
+<head>
+  	<meta charset="UTF-8">
+  	<title>memory game</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/accion.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div>
+    <div class="indications">
+      <h1>¡MEMORY GAME!</h1>
+    </div>
+    <table id="game" >
+        <tr>
+          <td><img src="images/fond3.jpg" id="0" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="1" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="2" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="3" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="4" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+        </tr>
+        <tr>
+          <td><img src="images/fond3.jpg" id="5" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="6" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="7" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="8" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="9" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+        </tr>
+        <tr>
+          <td><img src="images/fond3.jpg" id="10" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="11" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="12" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="13" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="14" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+        </tr>
+        <tr>
+          <td><img src="images/fond3.jpg" id="15" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="16" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="17" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="18" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+          <td><img src="images/fond3.jpg" id="19" onclick="spinCard()" data-valor="valor" alt="fondo"></td>
+        </tr>
+    		</table>
+	  </div>
+    <div class="centrar">
+      <input id="start" type="button" value="Start" onclick="startGame()" />
+      <input id="restart" type="button" value="Restart" onclick="restartGame()" />
+      <input id="newGame" type="button" value="¿New Game?" onclick="restartGame()" />
+    </div>
+  </div>
+</body>
+</html>
