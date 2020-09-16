@@ -2,7 +2,7 @@
 
 Es una actividad de un juego de memoria con animales animados.
 
-Nota: las images utilizadas en este projecto/juego no son de mi propiedad, fueron tomadas de internet, las utilicÉ con caracter educativo y sin ánimo de lucro alguno.
+Nota: las images utilizadas en este projecto/juego no son de mi propiedad, fueron tomadas de internet, las utilicé con caracter educativo y sin ánimo de lucro alguno.
 
 las imagenes de los animales fueron tomadas de esta pagina https://www.pngfuel.com/free-png/nkbex
 
